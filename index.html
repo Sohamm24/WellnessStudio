@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Journeys</title>
+    <link rel="stylesheet" href="landingPageStyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="wellnesslogo.png"></a></div>
+    <ul>
+        <li><a href="index.html" class="h">Home</a></li>
+        <li><a href="aboutUS.html" class="h">About Us</a></li>
+        <button class="account" id="my-account-btn"><a href="#">My Account</a></button>
+    </ul>
+    </div>
+</header>
+<div class="signin" id="signIn">
+    <div class="popupS">
+        <div class="close-btn" id="closePopupButton">&times;</div>
+        <h3 class="s1">Sign-in</h3>
+        <p class="s2">Enter relevant information</p>
+        <div class="s3">
+        <h6 class="a ss1"><i class='bx bx-user'></i> Name <input placeholder=" Enter your Name" class="i 1" ></h6>
+        <h6 class="a ss2"><i class='bx bx-envelope'></i> Mail <input placeholder=" Enter your mail address" class="i 2"></h6>
+        <h6 class="a ss3"><i class='bx bx-phone'></i> Contact <input placeholder="Enter your Contact number" class="i 3"></h6>
+        <h6 class="a ss4"><i class='bx bx-lock' ></i> Password <input placeholder="Set a strong password" class="i 4"></h6>
+        </div>
+        <button class="s4">Sign-in</button>
+        <p class="s5">Login if you have an account</p>
+        <button class="s6">Login</button>
+    </div>
+ </div>
+<section><div class="contentLine"><h5>We are soon opening our offline stores</h5></div></section>
+<section><div class="Box1"><img class="landingPageimg" src="landingPage.jpg"><h1>The best guide to assist on your way to stay fit</h1></section>
+    <section><div class="asanas">
+       <button class="container" id="c1"><p>BMI calculator</p></button>
+          <div id="popup" class="popup">
+                <div class="popup-content">
+            <div class="close-btn" id="closePopupBtn">&times;</div>
+            <h2>BMI Calculator</h2>
+            <p>Helps to estimate body fat and health risk</p>
+            <input id="height" placeholder="Enter height in cm">
+            <input id="weight" placeholder="Enter weight in kg">
+            <button class="BMIbutton" onclick="calculateBMI()" class="button">Calculate BMI</button>
+            <div id="result"></div>
+           </div>
+          </div>
+
+       <button class="container" id="c2" onclick="DPbutton()"><p>Diet Plans</p></button>
+       <button class="container" id="c3" onclick="WPbutton()"><p>Workout Plans</p></button>
+    </div></section>
+    <section>
+        <h1 class="inspire">Blogs to inspire you</h1>
+        <p class="physique">CHANGE YOUR BODY PHYSIQUE IN 42 DAYS</p>
+      <div class="blog">  
+        <div class="w w1"></div>
+        <div class="w w2"></div>
+        <div class="w w3"></div>
+        <div class="w w4"></div>
+        <div class="w w5"></div>
+        <div class="w w6"></div>
+        <div class="w w7"><h3>Some additional tips</h3>
+            <ol>
+              <li>Set realistic goals</li>
+                 <ul style="list-style-type: disc;"><li>Loosing 1-2 pounds a week</li>
+                     <li>Increasing daily steps by 250 every week until you reach 8,000 steps</li>
+                </ul>
+              <li>Get out of your comfort zone</li>
+            </ol>
+          </div>
+      </div> 
+    </section>
+    <footer>
+        <p>&copy; 2024 WellnessStudio. All rights reserved.</p>
+        <p>Policies and rules | Privacy Policy | Terms of Use</p>
+        <p>Mumbai, Maharashtra</p>
+    </footer>
+    <script src="landingPageJS.js"></script>
+</body>
+</html>
