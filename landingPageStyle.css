@@ -95,15 +95,8 @@ header button a:hover{
     height:450px;
 }
 .s1{
-    margin:20px;
-}
-.s2{
-    margin-left:10px;
-    margin-bottom:5px;
-    font-size: small;
-}
-.s3{
-    margin-bottom: 4px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .s4{
     margin-left:160px;
@@ -113,6 +106,7 @@ header button a:hover{
     background-color:rgb(57, 139, 255);
     color:white;
     border-radius:10px;
+    margin-bottom:30px;
 }
 .s5{
     font-size: small;
@@ -128,6 +122,9 @@ header button a:hover{
     color:black;
     border-radius:10px;
 }
+input::placeholder{
+    font-size:smaller;
+}
 .a{
     float:right;
     margin-bottom: 10px;
@@ -136,9 +133,7 @@ header button a:hover{
 .i{
     border-radius:10px;
 }
-input::placeholder{ 
-    font-size: 3px;
-}
+
 input{
     padding-left: 20px;
 }
