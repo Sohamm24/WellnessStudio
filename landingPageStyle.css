@@ -123,7 +123,7 @@ header button a:hover{
     border-radius:10px;
 }
 input::placeholder{
-    font-size:smaller;
+    font-size:16px;
 }
 .a{
     float:right;
