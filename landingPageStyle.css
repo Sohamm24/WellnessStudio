@@ -316,20 +316,17 @@ input::placeholder {
     font-variant:small-caps;
     margin-left:10%;
 }
-.physique{
-  color: rgb(108, 17, 32);
-  font-weight: 600;
-  font-size:3px;
-  font-style: italic;
-  float:right;
-  margin-right:5%;
-}
 .blog{
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 2fr;
   gap: 10px;
   margin-top:60px;
+}
+.physique{
+    color: #333;
+    display:flex;
+     margin-left:3%;
 }
 .w{
    height: 150px;
@@ -423,10 +420,7 @@ input::placeholder {
     transform:translate3d(0px,0px,0px);
     font-size: small;
     }
-    .blog{
-        font-size:3px;
-    }
-    .w7{
-       width:300px;
-    }
+   .w7{
+     font-size:larger;
+   }
 }
