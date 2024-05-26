@@ -380,7 +380,10 @@ footer {
        transform: translateX(10px);
        font-size: 9px;
      }
-   
+    .i{
+        border-radius:10px;
+        height:35px;
+    }
     .contentLine{
         display:none;
     }
