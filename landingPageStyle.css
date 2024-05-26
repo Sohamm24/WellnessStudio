@@ -273,9 +273,6 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
-input::placeholder {
-    text-align: center;
-}
 #height{
     border-radius: 15px;
     height: 40px;
@@ -324,7 +321,7 @@ input::placeholder {
 .w{
    height: 150px;
    width: 100%;
-   background-color: rgb(188, 142, 157);
+   background-color: rgb(239, 228, 232);
 }
 .w1{
   grid-row-start:1;
