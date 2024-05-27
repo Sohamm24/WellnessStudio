@@ -181,6 +181,7 @@ input{
 }
 .box-total{
     background-color:rgb(87, 7, 20);
+    display:block;
     color: #fff;
     height:100%;
     width:auto;
@@ -190,7 +191,10 @@ input{
     grid-column-end: 8;
 }
 .box-total p{
-   transform:translateY(20px);
+   transform:translateY(50px);
+}
+.totalC{
+    margin-top: 80px;
 }
 footer {
     height: 400px;
