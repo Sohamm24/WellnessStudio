@@ -137,12 +137,10 @@ input{
 }
 .container{
    display:grid;
-   grid-template-rows:1fr 1fr 1fr 1fr 5fr;
-   grid-template-columns:1fr 1fr 1fr 1fr;
-   margin:500px;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+   margin:20px;
    gap:10px;
-   margin-top:50px;
-   margin-bottom:100px;
  }
  .item{
     display:flex;
@@ -151,50 +149,61 @@ input{
     font-weight:bolder;
     font-size:30px;
  }
+ .box-select{
+    background-color: pink;
+    grid-row-start:1;
+    grid-row-end:8;
+    grid-column-start:1;
+    grid-column-end:2;
+    
+ }
  .box-breakfast{
   background-color:rgb(255, 127, 148);
-  height: 100px;
   width:auto;
-  grid-column:span 4;
   align-items:center;
+  grid-row-start:1;
+  grid-row-end:4;
+  grid-column-start:2;
+  grid-column-end:4;
+  height:250px;
  }
  .box-lunch{
    background-color:rgb(255, 100, 126);
-   height:100px;
    width:auto;
    grid-column:span 4;
    align-items:center;
+   grid-row-start:1;
+   grid-row-end:4;
+   grid-column-start:4;
+   grid-column-end:6;
  }
  .box-snacks{
   background-color:rgb(255, 90, 104);
-  height:100px;
   width:auto;
   grid-column:span 4;
   align-items:center;
+  grid-row-start:4;
+  grid-row-end:7;
+  grid-column-start:2;
+  grid-column-end:4;
  }
 .box-dinner{
  background-color:rgb(255,70,95);
- height:100px;
  width:auto;
  grid-column:span 4;
  align-items:center;
+  grid-row-start:4;
+  grid-row-end:7;
+  grid-column-start:4;
+  grid-column-end:6;
 }
 .box-total{
     background-color:rgb(87, 7, 20);
-    display:block;
+    grid-row-start:7;
+    grid-row-end:8;
+    grid-column-start:2;
+    grid-column-end:6;
     color: #fff;
-    height:100%;
-    width:auto;
-    grid-row-start:5;
-    grid-row-end:9;
-    grid-column-start:1;
-    grid-column-end:5;
-}
-.box-total p{
-   transform:translateY(50px);
-}
-.totalC{
-    margin-top: 80px;
 }
 footer {
     height: 400px;
@@ -223,16 +232,6 @@ footer {
       .item{
         font-size:medium;
       }
-    .container{
-        display:grid;
-        grid-template-rows:0.75fr 0.75fr 0.75fr 0.75fr 4fr;
-        grid-template-columns:1fr 1fr 1fr 1fr;
-        gap:10px;
-        margin:40px;
-        margin-top:50px;
-        margin-bottom:100px;
-      }
-    
     .logo{
         padding-left:10px;
     }
@@ -256,4 +255,77 @@ footer {
         width:fit-content;
         margin-left:px;
     } 
+    .container{
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
+        margin:10px;
+        gap:5px;
+        height:950px;
+      }
+      .item{
+         display:flex;
+         padding-left:10%;
+         border-radius:20px;
+         font-weight:bolder;
+         font-size:30px;
+      }
+      .box-select{
+         background-color: pink;
+         grid-row-start:1;
+         grid-row-end:10;
+         grid-column-start:1;
+         grid-column-end:2;
+         
+      }
+      .box-breakfast{
+       background-color:rgb(255, 127, 148);
+       width:auto;
+       align-items:center;
+       grid-row-start:1;
+       grid-row-end:3;
+       grid-column-start:2;
+       grid-column-end:4;
+       height:200px;
+      }
+      .box-lunch{
+        background-color:rgb(255, 100, 126);
+        width:auto;
+        align-items:center;
+        grid-row-start:3;
+        grid-row-end:5;
+        grid-column-start:2;
+        grid-column-end:4;
+        height:200px;
+      }
+      .box-snacks{
+       background-color:rgb(255, 90, 104);
+       width:auto;
+       grid-column:span 4;
+       align-items:center;
+       grid-row-start:5;
+       grid-row-end:7;
+       grid-column-start:2;
+       grid-column-end:4;
+       height:200px;
+      }
+     .box-dinner{
+      background-color:rgb(255,70,95);
+      width:auto;
+      grid-column:span 4;
+      align-items:center;
+       grid-row-start:7;
+       grid-row-end:9;
+       grid-column-start:2;
+       grid-column-end:4;
+       height:200px;
+     }
+     .box-total{
+         background-color:rgb(87, 7, 20);
+         grid-row-start:9;
+         grid-row-end:10;
+         grid-column-start:2;
+         grid-column-end:4;
+         color: #fff;
+     }
 }
