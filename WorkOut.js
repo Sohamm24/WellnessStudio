@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     item.forEach(item => {
         item.addEventListener('click', () => {
-            desired.innerHTML = `Selected workout: ${item.textContent}`;
+            desired.innerHTML = `${item.textContent}`;
         });
     });
 
